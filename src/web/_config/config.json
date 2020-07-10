@@ -1,0 +1,17 @@
+{
+  "convertor_type": "twig",
+  "target_path__assets": "dist/assets/",
+  "target_path__assets_full": "${process.cwd()}/dist/assets/",
+  "target_path__core": "dist/src/templates",
+  "tpl_templateUrlBase": "assets/",
+  "DISABLED_nunjucks": {
+    "tags": {
+      "blockStart": "{% ",
+      "blockEnd": " %}",
+      "variableStart": "{{ ",
+      "variableEnd": " }}",
+      "commentStart": "{# ",
+      "commentEnd": " #}"
+    }
+  }
+}

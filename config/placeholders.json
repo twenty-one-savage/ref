@@ -1,0 +1,8 @@
+{
+  "test_placeholder":"этот файл вызывается последним и может переписать modx_config",
+  "_modx":{
+    "config" : {
+      "test_site_name" : "YEEEEEES!"
+    }
+  }
+}

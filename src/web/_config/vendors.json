@@ -1,0 +1,30 @@
+{
+  "fonts": [
+    "slick-carousel/slick/fonts/slick.eot",
+    "slick-carousel/slick/fonts/slick.svg",
+    "slick-carousel/slick/fonts/slick.ttf",
+    "slick-carousel/slick/fonts/slick.woff",
+    "fonts/Gilroy/Gilroy-Regular.woff",
+    "fonts/Gilroy/Gilroy-Medium.woff",
+    "fonts/Gilroy/Gilroy-Bold.woff",
+    "fonts/Gilroy/Gilroy-Heavy.woff"
+  ],
+  "css": [
+    "bootstrap/4.2.1/css/bootstrap.min.css",
+    "slick-carousel/slick/slick.css",
+    "slick-carousel/slick/slick-theme.css",
+    "fancybox/dist/jquery.fancybox.min.css",
+    "pnotify/pnotify.custom.css"
+  ],
+  "js": [
+    "jquery/dist/jquery.min.js",
+    "bootstrap/4.2.1/js/bootstrap.bundle.min.js",
+    "svg4everybody/dist/svg4everybody.legacy.min.js",
+    "slick-carousel/slick/slick.js",
+    "fancybox/dist/jquery.fancybox.min.js",
+    "pnotify/pnotify.custom.js",
+    "pnotify/default.js",
+    "inputmask_git/dist/jquery.inputmask.min.js",
+    "vanilla-lazyload/dist/lazyload.min.js"
+  ]
+}

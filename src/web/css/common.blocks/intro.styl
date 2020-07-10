@@ -1,0 +1,57 @@
+.intro
+  // padding 7vw 0
+  color $main
+  background-image url('../images/base/bg-intro-upd.png')
+  background-repeat no-repeat
+  background-size: cover
+  &__wrap
+    &_py-custom
+      padding-top 140px
+      padding-bottom 30px
+    &_absolute
+      position absolute
+      left -18%
+    &_pl
+      padding-left 25%
+  &__title
+    font-size 48px
+    font-weight 700
+  &__text
+    font-size 24px
+
+@media(max-width 1199.98px)
+  .intro
+    background-position center
+    &__title
+      font-size 54px
+      line-height 1.2
+    &__text
+      font-size 25px
+@media(max-width 991.98px)
+  .intro
+    &__wrap
+      &_py-custom
+        padding-top 100px
+        padding-bottom 100px
+    &__title
+      font-size 30px
+    &__text
+      font-size 18px
+
+@media(max-width 767.98px)
+  .intro
+    &__wrap
+      &_py-custom
+        padding-top 0px
+        padding-bottom 40px
+    background-image none
+    &__title
+      font-size 20px
+    &__text
+      font-size 15px
+
+@media(min-width 1800px)
+  .intro
+    &__wrap
+      &_py-custom
+        padding-bottom 60px

@@ -1,0 +1,5 @@
+{
+  "shell": [
+    "DIS_rsync --progress -avzHPe ssh ${target_path__assets_full} bp_main:/home/a/admin37/mybusiness-school.ru/public_html/assets/"
+  ]
+}

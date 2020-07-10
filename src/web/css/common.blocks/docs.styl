@@ -1,0 +1,50 @@
+.docs
+  &__title
+    margin-bottom 45px
+
+  &__subtitle
+    margin-bottom 10px
+
+  &__list
+    margin 0
+    padding 0
+    list-style none
+
+  &__item
+    margin-bottom 10px
+    height 100%
+    display flex
+    flex-direction column
+    align-items center
+    justify-content center
+
+  &__decorate
+    display flex
+    align-items center
+    justify-content center
+    margin-bottom 15px
+    width 86px
+    height 86px
+    background-color $white
+    box-shadow 0 0 10px 5px $gray
+    border-radius 50%
+
+  &__text
+    margin-bottom 0
+    text-align center
+
+  &__link
+    color $gray-lighter
+    font-weight 600
+    text-decoration underline
+    &_img
+      &:hover
+        opacity 0.85
+
+@media (max-width 768px)
+  .docs
+    &__decorate
+      width 70px
+      height 70px
+    &__subtitle
+      opacity 1

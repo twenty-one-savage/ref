@@ -1,0 +1,46 @@
+.main-nav
+  padding 0
+  margin 0
+  list-style none
+  text-transform uppercase
+  &__link
+    font-size 16px
+    color $main
+    font-weight 500
+    &:hover
+      color $main
+  &__item
+    display flex
+    align-items center
+    padding-left 10px
+    padding-right 10px
+    transition $animation
+    &:hover
+      box-shadow 0 3px 0 0 $primary
+
+.main-nav_collapse
+  .main-nav__item
+    padding 10px 0
+    font-weight 700
+    border-bottom 1px solid $gray
+    &:last-child
+      border-bottom none
+    & .main-nav__link
+      margin-left auto
+      margin-right auto
+      color $main
+      font-weight 700
+      &:hover
+        box-shadow none
+
+@media(min-width 767.98px)
+  .main-nav
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    align-items center
+
+@media(max-width 1198.98px)
+  .main-nav
+    &__link
+      font-size 12px
