@@ -42,10 +42,6 @@
 
         {% block before_footer %}{% endblock %}
 
-        {{ include("_/sections/footer.tpl") }}
-        {{ include("_/components/modals/mod1.tpl") }}
-        {{ include("_/components/modals/mod2.tpl") }}
-        {{ include("_/components/modals/mod3.tpl") }}
         {{ include("_/components/quiz/quiz.tpl") }}
 
         {% block additional %}{% endblock %}

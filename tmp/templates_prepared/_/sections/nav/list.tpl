@@ -1,14 +1,14 @@
 <!-- _/sections/nav/list.tpl -->
 <li class="main-nav__item first">
-  <a class="main-nav__link scrollTo" href="#intro">
+  <a class="main-nav__link scrollTo" href="#">
     Главная </a>
 </li>
 <li class="main-nav__item ">
-  <a class="main-nav__link scrollTo" href="#docs">
+  <a class="main-nav__link scrollTo" href="#bankwork">
     О программе </a>
 </li>
 <li class="main-nav__item ">
-  <a class="main-nav__link scrollTo" href="#docs">
+  <a class="main-nav__link scrollTo" href="#steps">
     Процедура </a>
 </li>
 <li class="main-nav__item ">

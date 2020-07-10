@@ -70,7 +70,6 @@ jQuery(document).ready(function ($) {
 
   partnersSlider();
   reviewsSlider();
-  licensesSlider();
 
 
   setTheSameHeightForItems('.js-partners-slider','.partners__item');
@@ -136,33 +135,6 @@ function reviewsSlider() {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-      }
-    }]
-  })
-}
-
-function licensesSlider() {
-  let slider = $('.js-licenses-slider');
-  slider.slick({
-    infinite: false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    arrows: true,
-    prevArrow: '<i class="slick-arrow slick-prev i i_icon-prevArrow i_size_30 text-gray"></i>',
-    nextArrow: '<i class="slick-arrow slick-next i i_icon-nextArrow i_size_30 text-gray"></i>',
-    dots: false,
-    responsive: [{
-      breakpoint: 991,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      }
-    }, {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: true
       }
     }]
   })
