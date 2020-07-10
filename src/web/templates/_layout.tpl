@@ -39,7 +39,7 @@
         </div>
 
         {% block content %}{% endblock%}
-
+        {{ include("_/sections/footer.tpl") }}
         {% block before_footer %}{% endblock %}
 
         {{ include("_/components/quiz/quiz.tpl") }}

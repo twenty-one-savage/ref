@@ -13,7 +13,7 @@
         <!--[if IE]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <base href="/" />
+        <base href="." />
         <meta charset="utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -39,7 +39,7 @@
         </div>
 
         {% block content %}{% endblock%}
-
+        {{$include( "_/sections/footer.tpl") }}
         {% block before_footer %}{% endblock %}
 
         {{$include( "_/components/quiz/quiz.tpl") }}
