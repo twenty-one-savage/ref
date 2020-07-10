@@ -1,5 +1,5 @@
 <!-- Marquiz script start -->
-<script src="//script.marquiz.io/v1.js" type="application/javascript"></script>
+<script src="https://script.marquiz.io/v1.js" type="application/javascript"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     Marquiz.init({
