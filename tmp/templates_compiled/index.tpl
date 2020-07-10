@@ -40,14 +40,14 @@
           <!-- _/components/logo.tpl -->
 <a href="/">
   <div class="logo text-light">
-    <img src="assets/images/base/logo.png" alt="Логотип компании Refin">
+    <img src="assets/images/base/logo-rpj.png" alt="Логотип компании РОСПРОФЖЕЛ">
   </div>
 </a>
 
 <!-- /// _/components/logo.tpl -->
 
         </div>
-        <div class="col col-md-8 col-lg d-none d-md-block">
+        <div class="col col-md-8 col-lg-auto d-none d-md-block">
           <!-- _/sections/nav/top.tpl -->
 <ul class="main-nav main-nav_md">
     <!-- _/sections/nav/list.tpl -->
@@ -57,11 +57,15 @@
 </li>
 <li class="main-nav__item ">
   <a class="main-nav__link scrollTo" href="#docs">
-    Процедуры </a>
+    О программе </a>
+</li>
+<li class="main-nav__item ">
+  <a class="main-nav__link scrollTo" href="#docs">
+    Процедура </a>
 </li>
 <li class="main-nav__item ">
   <a class="main-nav__link scrollTo" href="#reviews">
-    Истории клиентов </a>
+    Истории заёмщиков </a>
 </li>
 <li class="main-nav__item">
   <a class="main-nav__link scrollTo" href="#features">
@@ -96,11 +100,15 @@
 </li>
 <li class="main-nav__item ">
     <a class="main-nav__link scrollTo" href="#docs">
-    Процедуры </a>
+    О программе </a>
+</li>
+<li class="main-nav__item ">
+    <a class="main-nav__link scrollTo" href="#docs">
+    Процедура </a>
 </li>
 <li class="main-nav__item ">
     <a class="main-nav__link scrollTo" href="#reviews">
-    Истории клиентов </a>
+    Истории заёмщиков </a>
 </li>
 <li class="main-nav__item ">
     <a class="main-nav__link scrollTo" href="#features">
@@ -134,14 +142,16 @@
       <div class="col-12">
         <div class="row align-items-end">
           <div class="col-12 text-center d-md-none">
-            <img class="intro__img intro__img_mob" src="assets/images/base/bg-intro-mob.png" alt="Наши клиенты">
+            <img class="intro__img intro__img_mob" src="assets/images/base/intro-mob.png" alt="Наши клиенты">
           </div>
           <div class="col-12 col-md-9 intro__wrap_py-custom">
             <div class="text-center text-md-left">
-              <h1 class="intro__title">Рефинансирование ипотеки:<br>
-                снизим платеж, сократим срок
+              <h1 class="intro__title mb-4">Рефинансирование ипотеки<br>
+                для членов профсоюза
               </h1>
-              <p class="intro__text mb-3 mb-lg-5">Поможем оформить ипотеку на более выгодных условиях — с меньшим ежемесячным платежом или сроком выплаты</p>
+              <p class="intro__text mb-3 mb-lg-5">РОСПРОФЖЕЛ помогает работникам отрасли получить<br class="d-none d-xl-block"> рефинансирование
+                ипотеки на более выгодных условиях — с<br class="d-none d-xl-block"> меньшим ежемесячным платежом или
+                сроком выплаты</p>
               <a class="intro__link btn btn-primary" href="javascript:;" data-src="#popup2" data-fancybox>Рассчитать выгоду</a>
             </div>
           </div>
@@ -164,74 +174,61 @@
   <h2 class="partners__title title title_section title_section_sm">Наши партнёры</h2>
   <div class="row align-items-center js-partners-slider">
     <div class="col-auto partners__item">
-      <a href="https://www.vtb.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-vtb.png" alt="ВТБ">
-      </a>
+      <img src="assets/images/base/logo-vtb.png" alt="ВТБ">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://alfabank.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-alfa.png" alt="Альфа-банк">
-      </a>
+      <img src="assets/images/base/logo-alfa.png" alt="Альфа банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.gazprombank.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-gazprom.png" alt="Газпромбанк">
-      </a>
+      <img src="assets/images/base/logo-gazprom.png" alt="Газпром банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.uralsib.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-uralsib.png" alt="Уралсиб">
-      </a>
+      <img src="assets/images/base/logo-uralsib.png" alt="Уралсиб банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.raiffeisen.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-raiffaisen.png" alt="Райффайзен-банк">
-      </a>
+      <img src="assets/images/base/logo-raiffaisen.png" alt="Райффайзен банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.unicreditbank.ru/ru" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-unicredit.png" alt="Юникредит-банк">
-      </a>
+      <img src="assets/images/base/logo-unicredit.png" alt="Юникредит банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://metallinvestbank.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-metallinvest.png" alt="Металлинвестбанк">
-      </a>
+      <img src="assets/images/base/logo-metallinvest.png" alt="Металлинвест банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.vtb.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-vtb.png" alt="ВТБ">
-      </a>
+      <img src="assets/images/base/logo-absolut.png" alt="Абослют банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://alfabank.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-alfa.png" alt="Альфа-банк">
-      </a>
+      <img src="assets/images/base/logo-ak-bars.png" alt="Ак Барс банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.gazprombank.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-gazprom.png" alt="Газпромбанк">
-      </a>
+      <img src="assets/images/base/logo-domrf.png" alt="ДОМ РФ банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.uralsib.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-uralsib.png" alt="Уралсиб">
-      </a>
+      <img src="assets/images/base/logo-otkrytie.png" alt="Открытие банк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.raiffeisen.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-raiffaisen.png" alt="Райффайзен-банк">
-      </a>
+      <img src="assets/images/base/logo-peterburg.png" alt="Банк Санкт-Петербург">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://www.unicreditbank.ru/ru" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-unicredit.png" alt="Юникредит-банк">
-      </a>
+      <img src="assets/images/base/logo-primsocbank.png" alt="ПримСоцБанк">
     </div>
     <div class="col-auto partners__item">
-      <a href="https://metallinvestbank.ru/" target="_blank" rel="noopener nofollow">
-        <img src="assets/images/base/logo-metallinvest.png" alt="Металлинвестбанк">
-      </a>
+      <img src="assets/images/base/logo-promsvyaz.png" alt="Промсвязь банк">
+    </div>
+    <div class="col-auto partners__item">
+      <img src="assets/images/base/logo-rosbank.png" alt="Росбанк">
+    </div>
+    <div class="col-auto partners__item">
+      <img src="assets/images/base/logo-rosselxoz.png" alt="РосСельХоз банк">
+    </div>
+    <div class="col-auto partners__item">
+      <img src="assets/images/base/logo-severgaz.png" alt="Севергаз банк">
+    </div>
+    <div class="col-auto partners__item">
+      <img src="assets/images/base/logo-transkapital.png" alt="Транскапитал банк">
+    </div>
+    <div class="col-auto partners__item">
+      <img src="assets/images/base/logo-zenit.png" alt="Зенит банк">
     </div>
   </div>
 </section>
@@ -241,63 +238,14 @@
         </div>
     </div>
     <div class="fill section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-8 offset-xl-2">
-                    <!-- _/components/docs/index.tpl -->
-<section id="docs" class="docs">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="docs__title title title_section text-primary">Для старта достаточно фото и документов</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 p-0 p-md-3">
-        <ul class="docs__list row">
-          <li class="docs__item col-4 col-md">
-            <div class="docs__decorate">
-              <i class="docs__icon i i_icon-personal i_size_48 text-primary"></i>
-            </div>
-            <h3 class="docs__subtitle title title_subtitle">Личные</h3>
-            <p class="docs__text">Паспорт</p>
-            <p class="docs__text">СНИЛС</p>
-          </li>
-          <li class="docs__item col-4 col-md">
-            <div class="docs__decorate">
-              <img src="assets/images/base/employer.png" alt="">
-            </div>
-            <h3 class="docs__subtitle title title_subtitle">От работо<span class="d-sm-none">-</span><br class="d-sm-none">дателя</h3>
-            <p class="docs__text">Справка 2-НДФЛ </p>
-            <p class="docs__text">Копия трудовой</p>
-          </li>
-          <li class="docs__item col-4 col-md">
-            <div class="docs__decorate">
-              <i class="docs__icon i i_icon-house i_size_48 text-primary"></i>
-            </div>
-            <h3 class="docs__subtitle title title_subtitle">Ипотечные</h3>
-            <p class="docs__text">Кредитный договор</p>
-            <p class="docs__text">Выписка из ЕГРН</p>
-          </li>
-        </ul>
-    </div>
-  </div>
-</section>
-
-<!-- /// _/components/docs/index.tpl -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="fill section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-8 offset-xl-2">
-                    <!-- _/components/bankwork/index.tpl -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-8 offset-xl-2">
+            <!-- _/components/bankwork/index.tpl -->
 <section id="bankwork" class="bankwork">
   <div class="row">
     <div class="col-12">
-      <h2 class="bankwork__title title title_section title_section_sm">Всю работу с банком мы берем на себя
+      <h2 class="bankwork__title title title_section title_section_sm">Почему мы предлагаем эту программу
       </h2>
     </div>
   </div>
@@ -305,16 +253,18 @@
     <div class="col-12 col-sm-10 offset-sm-1 col-md-12 offset-md-0">
       <ul class="bankwork__list row">
         <li class="bankwork__item col-12 col-md-4">
-          <i class="bankwork__icon i i_icon-check"></i>
-          <p class="bankwork__text">Бесплатно проверим вашу кредитную историю</p>
+          <i class="bankwork__icon i i_icon-check text-primary"></i>
+          <p class="bankwork__text">Мы знаем, что большая часть зарплаты уходит
+            на погашение ипотеки</p>
         </li>
         <li class="bankwork__item col-12 col-md-4">
-          <i class="bankwork__icon i i_icon-check"></i>
-          <p class="bankwork__text">Бесплатно заполним анкету для подачи в банк</p>
+          <i class="bankwork__icon i i_icon-check text-primary"></i>
+          <p class="bankwork__text">Мы понимаем актуальность рефинасирования
+            в экономических реалиях</p>
         </li>
         <li class="bankwork__item col-12 col-md-4">
-          <i class="bankwork__icon i i_icon-check"></i>
-          <p class="bankwork__text">Бесплатно сопроводим сделку до подписания </p>
+          <i class="bankwork__icon i i_icon-check text-primary"></i>
+          <p class="bankwork__text">Мы хотим помочь вам улучшить свое благосостояние</p>
         </li>
       </ul>
     </div>
@@ -323,9 +273,9 @@
 
 <!-- /// _/components/bankwork/index.tpl -->
 
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
     <div class="section-padding">
       <div class="container">
@@ -346,7 +296,7 @@
         </div>
         <div class="col-12 col-md-4">
           <div class="benefit__wrapper">
-            <div class="benefit__number">1,8</div>
+            <div class="benefit__number">1,2</div>
             <div class="benefit__value">млн<br>рублей</div>
           </div>
           <p class="text-center text-md-left">в среднем экономия при снижении платежа </p>
@@ -374,6 +324,34 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="fill section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-8 offset-xl-2">
+                    <!-- _/components/steps/index.tpl -->
+<section id="steps" class="steps">
+  <h2 class="steps__title title title_section">Этапы процедуры рефинансирования</h2>
+  <div class="steps__bg">
+    <div class="row mt-4">
+      <div class="col-4 steps-mby-5 steps-mtx">Вы отвечаете на 5 вопросов по текущей ипотеке</div>
+      <div class="col-4 steps-mby-5 steps-mtx">Менеджер присылает в WhatsApp расчет экономии</div>
+      <div class="col-4 steps-mby-5 steps-mtx">Менеджер помогает собрать документы для банков </div>
+      <div class="col-4 steps-mby-5">Банк проводит оценку и принимает решение </div>
+      <div class="col-4 steps-mby-5">Менеджер помогает собрать документы по предмету ипотеки</div>
+      <div class="col-4 steps-mby-5">Банк согласовывает вашу заявку на рефинансирование</div>
+      <div class="col-4 steps-mby-5">Вы приезжаете на подписание сделки в новый банк</div>
+      <div class="col-4 steps-mby-5">Менеджер помогает оформить страховку</div>
+      <div class="col-4 steps-mby-5">Менеджер координирует регистрацию недвижимости</div>
+    </div>
+  </div>
+</section>
+
+<!-- /// _/components/steps/index.tpl -->
+
+                </div>
+            </div>
+        </div>
     </div>
     <div class="fill fill_gray-light section-padding">
         <div class="container section-padding">
@@ -552,52 +530,6 @@
     </div>
     <div class="container section-padding">
         <div class="row">
-            <div class="col-12">
-                <!-- _/components/licenses/index.tpl -->
-<section id="licenses" class="licenses">
-  <h2 class="licenses__title title title_section">Лицензии и сертификаты</h2>
-  <h3 class="licenses__subtitle">Refin — сертифицированный партнер по ипотечному кредитованию топ-банков России</h3>
-  <div class="row js-licenses-slider">
-    <div class="col">
-      <a href="assets/images/base/sert-alpha.png" data-fancybox="licenses">
-        <img src="assets/images/base/sert-alpha.png" alt="Сертификат">
-      </a>
-    </div>
-    <div class="col">
-      <a href="assets/images/base/sert-rosbank.png" data-fancybox="licenses">
-        <img src="assets/images/base/sert-rosbank.png" alt="Сертификат">
-      </a>
-    </div>
-    <div class="col">
-      <a href="assets/images/base/sert-absolute.png" data-fancybox="licenses">
-        <img src="assets/images/base/sert-absolute.png" alt="Сертификат">
-      </a>
-    </div>
-    <div class="col">
-      <a href="assets/images/base/sert-alpha.png" data-fancybox="licenses">
-        <img src="assets/images/base/sert-alpha.png" alt="Сертификат">
-      </a>
-    </div>
-    <div class="col">
-      <a href="assets/images/base/sert-rosbank.png" data-fancybox="licenses">
-        <img src="assets/images/base/sert-rosbank.png" alt="Сертификат">
-      </a>
-    </div>
-    <div class="col">
-      <a href="assets/images/base/sert-absolute.png" data-fancybox="licenses">
-        <img src="assets/images/base/sert-absolute.png" alt="Сертификат">
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- /// _/components/licenses/index.tpl -->
-
-            </div>
-        </div>
-    </div>
-    <div class="container section-padding">
-        <div class="row">
             <div class="col-12 col-lg-10 offset-lg-1">
                 <!-- _/components/refinance/index.tpl -->
 <div class="row">
@@ -663,53 +595,23 @@
   <div class="fill fill_gray-light">
     <div class="container">
       <div class="row align-items-center py-3 py-md-4">
-        <div class="col-md-2 col-xl-auto">
-          <!-- _/components/logo.tpl -->
-<a href="/">
-  <div class="logo text-light">
-    <img src="assets/images/base/logo.png" alt="Логотип компании Refin">
-  </div>
-</a>
-
-<!-- /// _/components/logo.tpl -->
-
+        <div class="col-auto">
+          <a href="/">
+            <div class="logo text-light">
+              <img src="assets/images/base/logo-refin-bw.png" alt="Логотип компании Refin">
+            </div>
+          </a>
         </div>
-        <div class="col-md col-xl text-center">
-          <p class="mb-0">ООО "Аксиома Финанс"</p>
+        <div class="col-md col-xl">
+          <p class="mb-0 fw-500">ООО "Аксиома Финанс"</p>
+          <p class="mb-0 fz-14 lh-1">Партнер Российского профессионального союза железнодорожников и транспортных строителей</p>
         </div>
-        <div class="col-md-auto col-xl-auto">
+        <div class="col-md-auto">
           <p class="mb-0">Москва, ул. Нижняя Масловка 9, офис 11 </p>
-        </div>
-        <div class="col-6 col-xl text-xl-center mt-3 mt-xl-0">
           <a class="footer__link footer__link_mail" href="mailto:info@refin.online">info@refin.online</a>
         </div>
-        <div class="col-6 col-xl text-md-right text-xl-center mt-3 mt-xl-0">
+        <div class="col-auto text-md-right text-xl-center">
           <a class="footer__link footer__link_tel" href="tel:+74951201309 ">+7 495 120-13-09 </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="fill_gray-light">
-    <div class="container">
-      <div class="row align-items-center justify-content-between py-3 py-xl-4">
-        <div class="col-auto mb-3 mb-lg-0 text-center">
-          <p class="mb-0">2020, ООО "Аксиома Финанс"</p>
-        </div>
-        <div class="col col-auto col-md-auto">
-          <div class="align-items-center justify-content-end row">
-            <div class="col-auto d-flex justify-content-end mb-2 mb-md-0 order-1 order-md-2 pl-0">
-              <a href="http://studio.business-platform.ru/" target="_blank">
-                <img src="assets/images/base/bp.png" class="footer__logo"
-                  alt="Интернет-агенство StudioBP">
-              </a>
-            </div>
-            <div
-              class="col-auto d-flex justify-content-end justify-content-xl-end mb-1 mb-lg-0 order-2 order-md-1">
-              <p class="mb-0 text-right"><span class="text-decorate">Создание сайта</span><span
-                  class="d-none d-md-inline">:</span></p>
-            </div>
-          </div>
-          </>
         </div>
       </div>
     </div>
@@ -722,43 +624,21 @@
     <div class="container">
       <div class="row align-items-center py-3 py-md-4">
         <div class="col-12 d-flex justify-content-between pb-2 border-bottom">
-          <!-- _/components/logo.tpl -->
-<a href="/">
-  <div class="logo text-light">
-    <img src="assets/images/base/logo.png" alt="Логотип компании Refin">
-  </div>
-</a>
-
-<!-- /// _/components/logo.tpl -->
-
+          <a href="/">
+            <div class="logo text-light">
+              <img src="assets/images/base/logo-refin-bw.png" alt="Логотип компании Refin">
+            </div>
+          </a>
           <a class="footer__link footer__link_tel" href="tel:+74951201309 ">+7 495 120-13-09 </a>
         </div>
-        <div class="col-12 d-flex justify-content-between py-2 border-bottom">
-          <div class="col p-0">
-            <p class="mb-0">ООО "Аксиома Финанс"</p>
-            <a class="footer__link footer__link_mail" href="mailto:info@refin.online">info@refin.online</a>
-          </div>
-          <p class="col-5 mb-0 p-0 text-right">Москва, ул. Нижняя Масловка 9, офис 11 </p>
+        <div class="col-12 text-center py-2 border-bottom">
+            <p class="mb-0 fw-500">ООО "Аксиома Финанс"</p>
+            <p class="mb-0 fz-14 lh-1">Партнер Российского профессионального союза железнодорожников и транспортных
+              строителей</p>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="fill_gray-light">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-6">
-          <p class="mb-0 fz-13">2020, ООО "Аксиома Финанс"</p>
-        </div>
-        <div class="col-6">
-          <div class="row align-items-center justify-content-end no-gutters">
-            <div class="col d-flex align-items-center justify-content-end mb-1">
-              <p class="mb-0 text-right"><span class="text-decorate fz13">Создание сайта</span>:</p>
-              <a class="ml-2 ml-sm-1" href="http://studio.business-platform.ru/" target="_blank">
-                <img src="assets/images/base/bp.png" class="footer__logo"
-                  alt="Интернет-агенство StudioBP">
-              </a>
-            </div>
-          </div>
+        <div class="col-12 text-center pt-2">
+          <p class="mb-0">Москва, ул. Нижняя Масловка 9, офис 11 </p>
+          <a class="footer__link footer__link_mail" href="mailto:info@refin.online">info@refin.online</a>
         </div>
       </div>
     </div>

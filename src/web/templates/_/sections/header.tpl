@@ -5,7 +5,7 @@
         <div class="col">
           {{ include("_/components/logo.tpl") }}
         </div>
-        <div class="col col-md-8 col-lg d-none d-md-block">
+        <div class="col col-md-8 col-lg-auto d-none d-md-block">
           {{ include("_/sections/nav/top.tpl") }}
         </div>
         <div class="col-auto d-block d-md-none order-4 pl-0">

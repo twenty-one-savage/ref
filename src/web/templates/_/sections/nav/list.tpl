@@ -4,11 +4,15 @@
 </li>
 <li class="main-nav__item ">
   <a class="main-nav__link scrollTo" href="#docs">
-    Процедуры </a>
+    О программе </a>
+</li>
+<li class="main-nav__item ">
+  <a class="main-nav__link scrollTo" href="#docs">
+    Процедура </a>
 </li>
 <li class="main-nav__item ">
   <a class="main-nav__link scrollTo" href="#reviews">
-    Истории клиентов </a>
+    Истории заёмщиков </a>
 </li>
 <li class="main-nav__item">
   <a class="main-nav__link scrollTo" href="#features">

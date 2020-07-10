@@ -12,7 +12,7 @@
         </div>
         <div class="col-12 col-md-4">
           <div class="benefit__wrapper">
-            <div class="benefit__number">1,8</div>
+            <div class="benefit__number">1,2</div>
             <div class="benefit__value">млн<br>рублей</div>
           </div>
           <p class="text-center text-md-left">в среднем экономия при снижении платежа </p>

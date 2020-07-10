@@ -40,14 +40,14 @@
           <!-- _/components/logo.tpl -->
 <a href="/">
   <div class="logo text-light">
-    <img src="assets/images/base/logo.png" alt="Логотип компании Refin">
+    <img src="assets/images/base/logo-rpj.png" alt="Логотип компании РОСПРОФЖЕЛ">
   </div>
 </a>
 
 <!-- /// _/components/logo.tpl -->
 
         </div>
-        <div class="col col-md-8 col-lg d-none d-md-block">
+        <div class="col col-md-8 col-lg-auto d-none d-md-block">
           <!-- _/sections/nav/top.tpl -->
 <ul class="main-nav main-nav_md">
     <!-- _/sections/nav/list.tpl -->
@@ -57,11 +57,15 @@
 </li>
 <li class="main-nav__item ">
   <a class="main-nav__link scrollTo" href="#docs">
-    Процедуры </a>
+    О программе </a>
+</li>
+<li class="main-nav__item ">
+  <a class="main-nav__link scrollTo" href="#docs">
+    Процедура </a>
 </li>
 <li class="main-nav__item ">
   <a class="main-nav__link scrollTo" href="#reviews">
-    Истории клиентов </a>
+    Истории заёмщиков </a>
 </li>
 <li class="main-nav__item">
   <a class="main-nav__link scrollTo" href="#features">
@@ -96,11 +100,15 @@
 </li>
 <li class="main-nav__item ">
     <a class="main-nav__link scrollTo" href="#docs">
-    Процедуры </a>
+    О программе </a>
+</li>
+<li class="main-nav__item ">
+    <a class="main-nav__link scrollTo" href="#docs">
+    Процедура </a>
 </li>
 <li class="main-nav__item ">
     <a class="main-nav__link scrollTo" href="#reviews">
-    Истории клиентов </a>
+    Истории заёмщиков </a>
 </li>
 <li class="main-nav__item ">
     <a class="main-nav__link scrollTo" href="#features">
@@ -149,53 +157,23 @@
   <div class="fill fill_gray-light">
     <div class="container">
       <div class="row align-items-center py-3 py-md-4">
-        <div class="col-md-2 col-xl-auto">
-          <!-- _/components/logo.tpl -->
-<a href="/">
-  <div class="logo text-light">
-    <img src="assets/images/base/logo.png" alt="Логотип компании Refin">
-  </div>
-</a>
-
-<!-- /// _/components/logo.tpl -->
-
+        <div class="col-auto">
+          <a href="/">
+            <div class="logo text-light">
+              <img src="assets/images/base/logo-refin-bw.png" alt="Логотип компании Refin">
+            </div>
+          </a>
         </div>
-        <div class="col-md col-xl text-center">
-          <p class="mb-0">ООО "Аксиома Финанс"</p>
+        <div class="col-md col-xl">
+          <p class="mb-0 fw-500">ООО "Аксиома Финанс"</p>
+          <p class="mb-0 fz-14 lh-1">Партнер Российского профессионального союза железнодорожников и транспортных строителей</p>
         </div>
-        <div class="col-md-auto col-xl-auto">
+        <div class="col-md-auto">
           <p class="mb-0">Москва, ул. Нижняя Масловка 9, офис 11 </p>
-        </div>
-        <div class="col-6 col-xl text-xl-center mt-3 mt-xl-0">
           <a class="footer__link footer__link_mail" href="mailto:info@refin.online">info@refin.online</a>
         </div>
-        <div class="col-6 col-xl text-md-right text-xl-center mt-3 mt-xl-0">
+        <div class="col-auto text-md-right text-xl-center">
           <a class="footer__link footer__link_tel" href="tel:+74951201309 ">+7 495 120-13-09 </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="fill_gray-light">
-    <div class="container">
-      <div class="row align-items-center justify-content-between py-3 py-xl-4">
-        <div class="col-auto mb-3 mb-lg-0 text-center">
-          <p class="mb-0">2020, ООО "Аксиома Финанс"</p>
-        </div>
-        <div class="col col-auto col-md-auto">
-          <div class="align-items-center justify-content-end row">
-            <div class="col-auto d-flex justify-content-end mb-2 mb-md-0 order-1 order-md-2 pl-0">
-              <a href="http://studio.business-platform.ru/" target="_blank">
-                <img src="assets/images/base/bp.png" class="footer__logo"
-                  alt="Интернет-агенство StudioBP">
-              </a>
-            </div>
-            <div
-              class="col-auto d-flex justify-content-end justify-content-xl-end mb-1 mb-lg-0 order-2 order-md-1">
-              <p class="mb-0 text-right"><span class="text-decorate">Создание сайта</span><span
-                  class="d-none d-md-inline">:</span></p>
-            </div>
-          </div>
-          </>
         </div>
       </div>
     </div>
@@ -208,43 +186,21 @@
     <div class="container">
       <div class="row align-items-center py-3 py-md-4">
         <div class="col-12 d-flex justify-content-between pb-2 border-bottom">
-          <!-- _/components/logo.tpl -->
-<a href="/">
-  <div class="logo text-light">
-    <img src="assets/images/base/logo.png" alt="Логотип компании Refin">
-  </div>
-</a>
-
-<!-- /// _/components/logo.tpl -->
-
+          <a href="/">
+            <div class="logo text-light">
+              <img src="assets/images/base/logo-refin-bw.png" alt="Логотип компании Refin">
+            </div>
+          </a>
           <a class="footer__link footer__link_tel" href="tel:+74951201309 ">+7 495 120-13-09 </a>
         </div>
-        <div class="col-12 d-flex justify-content-between py-2 border-bottom">
-          <div class="col p-0">
-            <p class="mb-0">ООО "Аксиома Финанс"</p>
-            <a class="footer__link footer__link_mail" href="mailto:info@refin.online">info@refin.online</a>
-          </div>
-          <p class="col-5 mb-0 p-0 text-right">Москва, ул. Нижняя Масловка 9, офис 11 </p>
+        <div class="col-12 text-center py-2 border-bottom">
+            <p class="mb-0 fw-500">ООО "Аксиома Финанс"</p>
+            <p class="mb-0 fz-14 lh-1">Партнер Российского профессионального союза железнодорожников и транспортных
+              строителей</p>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="fill_gray-light">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-6">
-          <p class="mb-0 fz-13">2020, ООО "Аксиома Финанс"</p>
-        </div>
-        <div class="col-6">
-          <div class="row align-items-center justify-content-end no-gutters">
-            <div class="col d-flex align-items-center justify-content-end mb-1">
-              <p class="mb-0 text-right"><span class="text-decorate fz13">Создание сайта</span>:</p>
-              <a class="ml-2 ml-sm-1" href="http://studio.business-platform.ru/" target="_blank">
-                <img src="assets/images/base/bp.png" class="footer__logo"
-                  alt="Интернет-агенство StudioBP">
-              </a>
-            </div>
-          </div>
+        <div class="col-12 text-center pt-2">
+          <p class="mb-0">Москва, ул. Нижняя Масловка 9, офис 11 </p>
+          <a class="footer__link footer__link_mail" href="mailto:info@refin.online">info@refin.online</a>
         </div>
       </div>
     </div>
