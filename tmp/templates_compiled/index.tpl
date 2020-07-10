@@ -152,7 +152,12 @@
               <p class="intro__text mb-3 mb-lg-5">РОСПРОФЖЕЛ помогает работникам отрасли получить<br class="d-none d-xl-block"> рефинансирование
                 ипотеки на более выгодных условиях — с<br class="d-none d-xl-block"> меньшим ежемесячным платежом или
                 сроком выплаты</p>
-              <a class="intro__link btn btn-primary" href="javascript:;" data-src="#popup2" data-fancybox>Рассчитать выгоду</a>
+              <div class="marquiz__container">
+                <a class="btn btn-primary marquiz_button marquizbutton_rounded marquiz_button_blicked"
+                  href="#popup:marquiz_5f06ceed7ba0ea0044ec4bf4" data-fixed-side=""
+                  data-alpha-color="rgba(14, 107, 177, 0.5)" data-color="#0E6BB1" data-text-color="#ffffff">Рассчитать
+                  выгоду</a>
+              </div>
             </div>
           </div>
         </div>
@@ -312,8 +317,12 @@
       </div>
       <div class="row">
         <div class="col-12 text-center">
-          <a class="btn btn-primary" href="javascript:;" data-src="#popup2" data-fancybox>Рассчитать
-            выгоду</a>
+          <div class="marquiz__container">
+            <a class="btn btn-primary marquiz_button marquizbutton_rounded marquiz_button_blicked"
+              href="#popup:marquiz_5f06ceed7ba0ea0044ec4bf4" data-fixed-side=""
+              data-alpha-color="rgba(14, 107, 177, 0.5)" data-color="#0E6BB1" data-text-color="#ffffff">Рассчитать
+              выгоду</a>
+          </div>
         </div>
       </div>
     </div>
@@ -333,16 +342,18 @@
 <section id="steps" class="steps">
   <h2 class="steps__title title title_section">Этапы процедуры рефинансирования</h2>
   <div class="steps__bg">
-    <div class="row mt-4">
-      <div class="col-4 steps-mby-5 steps-mtx">Вы отвечаете на 5 вопросов по текущей ипотеке</div>
-      <div class="col-4 steps-mby-5 steps-mtx">Менеджер присылает в WhatsApp расчет экономии</div>
-      <div class="col-4 steps-mby-5 steps-mtx">Менеджер помогает собрать документы для банков </div>
-      <div class="col-4 steps-mby-5">Банк проводит оценку и принимает решение </div>
-      <div class="col-4 steps-mby-5">Менеджер помогает собрать документы по предмету ипотеки</div>
-      <div class="col-4 steps-mby-5">Банк согласовывает вашу заявку на рефинансирование</div>
-      <div class="col-4 steps-mby-5">Вы приезжаете на подписание сделки в новый банк</div>
-      <div class="col-4 steps-mby-5">Менеджер помогает оформить страховку</div>
-      <div class="col-4 steps-mby-5">Менеджер координирует регистрацию недвижимости</div>
+    <div class="row mt-4 text-center text-xl-left">
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-1 steps-mtx steps-mtx-first">Вы отвечаете на 5 вопросов по
+        текущей ипотеке</div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-2 steps-mtx">Менеджер присылает в WhatsApp расчет экономии</div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-3 steps-mtx">Менеджер помогает собрать документы для банков
+      </div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-4">Банк проводит оценку и принимает решение </div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-50">Менеджер помогает собрать документы по предмету ипотеки</div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-6">Банк согласовывает вашу заявку на рефинансирование</div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-7">Вы приезжаете на подписание сделки в новый банк</div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-8">Менеджер помогает оформить страховку</div>
+      <div class="col-12 col-md-4 steps-mby-5 steps-mby-9">Менеджер координирует регистрацию недвижимости</div>
     </div>
   </div>
 </section>
@@ -372,11 +383,12 @@
               <div class="col-12 col-md-10">
                 <h3 class="reviews__name">Елена, Москва</h3>
                 <p class="reviews__text reviews__text_bold">До</p>
-                <p class="reviews__text">Платила по ставке 11,25% 68 200 рублей в месяц. Должна была платить еще 276 месяцев
-                  и выплатить банку 6 800 000 рублей. </p>
+                <p class="reviews__text">Платила 31 790 рублей в месяц. Должна была платить еще 255 месяцев и выплатить
+                  банку
+                  8 467 000 рублей.</p>
                 <p class="reviews__text reviews__text_bold">После</p>
-                <p class="reviews__text">Сократила срок выплаты ипотеки на 108 месяцев (9 лет) и сэкономила 7 365 000
-                  рублей.</p>
+                <p class="reviews__text">Сократила срок выплаты ипотеки на 116 месяцев (9 лет) и сэкономила 4 060 000
+                  рублей на переплате банку.</p>
               </div>
             </div>
           </div>
@@ -389,16 +401,16 @@
           <div class="shadow p-3 p-md-5">
             <div class="row">
               <div class="col-12 col-md-2">
-                <img class="reviews__img" src="assets/images/base/review.png" alt="Фото клиента">
+                <img class="reviews__img" src="assets/images/base/review-02.png" alt="Фото клиента">
               </div>
               <div class="col-12 col-md-10">
-                <h3 class="reviews__name">Елена, Москва</h3>
+                <h3 class="reviews__name">Юлия, Казань</h3>
                 <p class="reviews__text reviews__text_bold">До</p>
-                <p class="reviews__text">Платила по ставке 11,25% 68 200 рублей в месяц. Должна была платить еще 276 месяцев
-                  и выплатить банку 6 800 000 рублей. </p>
+                <p class="reviews__text">Платила по ставке 13% 46 000 рублей в месяц. Должна была платить еще 170
+                  месяцев и выплатить банку 3 000 000 рублей.</p>
                 <p class="reviews__text reviews__text_bold">После</p>
-                <p class="reviews__text">Сократила срок выплаты ипотеки на 108 месяцев (9 лет) и сэкономила 7 365 000
-                  рублей.</p>
+                <p class="reviews__text">Платит 29 892 рубля в месяц. Сэкономила 2 738 320 рублей на переплате банку. *
+                </p>
               </div>
             </div>
           </div>
@@ -411,16 +423,16 @@
           <div class="shadow p-3 p-md-5">
             <div class="row">
               <div class="col-12 col-md-2">
-                <img class="reviews__img" src="assets/images/base/review.png" alt="Фото клиента">
+                <img class="reviews__img" src="assets/images/base/review-03.png" alt="Фото клиента">
               </div>
               <div class="col-12 col-md-10">
-                <h3 class="reviews__name">Елена, Москва</h3>
+                <h3 class="reviews__name">Денис, Воронеж</h3>
                 <p class="reviews__text reviews__text_bold">До</p>
-                <p class="reviews__text">Платила по ставке 11,25% 68 200 рублей в месяц. Должна была платить еще 276 месяцев
-                  и выплатить банку 6 800 000 рублей. </p>
+                <p class="reviews__text">Платил по ставке 9,9% 35 000 рублей в месяц. Оставалось платить 258 месяцев и
+                  выплатить банку 3 700 000 рублей.</p>
                 <p class="reviews__text reviews__text_bold">После</p>
-                <p class="reviews__text">Сократила срок выплаты ипотеки на 108 месяцев (9 лет) и сэкономила 7 365 000
-                  рублей.</p>
+                <p class="reviews__text">Сократил срок выплаты ипотеки на 70 месяцев (почти 6 лет) и сэкономил 2 450 000
+                  рублей на переплате банку. *</p>
               </div>
             </div>
           </div>
@@ -433,16 +445,15 @@
           <div class="shadow p-3 p-md-5">
             <div class="row">
               <div class="col-12 col-md-2">
-                <img class="reviews__img" src="assets/images/base/review.png" alt="Фото клиента">
+                <img class="reviews__img" src="assets/images/base/review-04.png" alt="Фото клиента">
               </div>
               <div class="col-12 col-md-10">
-                <h3 class="reviews__name">Елена, Москва</h3>
+                <h3 class="reviews__name">Сергей, Нижний Новгород</h3>
                 <p class="reviews__text reviews__text_bold">До</p>
-                <p class="reviews__text">Платила по ставке 11,25% 68 200 рублей в месяц. Должна была платить еще 276 месяцев
-                  и выплатить банку 6 800 000 рублей. </p>
+                <p class="reviews__text">Платил по ставке 10,5% 45 600 рублей в месяц. Оставалось платить еще 205
+                  месяцев и выплатить банку 9 348 000 рублей.</p>
                 <p class="reviews__text reviews__text_bold">После</p>
-                <p class="reviews__text">Сократила срок выплаты ипотеки на 108 месяцев (9 лет) и сэкономила 7 365 000
-                  рублей.</p>
+                <p class="reviews__text">Платит 39 050 рублей в месяц. Заплатит банку на 1 342 500 рублей меньше. *</p>
               </div>
             </div>
           </div>
@@ -487,8 +498,7 @@
         </div>
         <div class="col">
           <h3 class="features__subtitle">Платит банк</h3>
-          <p class="features__text">Для вас мы работаем бесплатно. Наши услуги оплачивает банк, который вы выберете для
-            рефинансирования</p>
+          <p class="features__text">Все услуги по оформлению документов оплачивает банк</p>
         </div>
       </div>
     </div>
@@ -501,8 +511,8 @@
         </div>
         <div class="col">
           <h3 class="features__subtitle">Персональный помощник</h3>
-          <p class="features__text">Заполним все анкеты и формы, обеспечим поддержку на всех этапах сделки в WhatsApp и
-            по телефону</p>
+          <p class="features__text">Менеджер заполнит все анкеты и обеспечит поддержку на всех этапах сделки в WhatsApp
+            или по телефону</p>
         </div>
       </div>
     </div>
@@ -516,7 +526,8 @@
         <div class="col">
           <h3 class="features__subtitle">Быстро и удобно</h3>
           <p class="features__text">Вам не нужно ездить по банкам
-            и терять время в очередях. Когда все будет готово, вас пригласят на подписание сделки</p>
+            и терять время в очередях. Когда все будет готово, вас пригласят
+            на подписание сделки</p>
         </div>
       </div>
     </div>
@@ -537,46 +548,17 @@
     <div class="fill fill_primary-light px-3 py-4 p-lg-5">
       <section id="refinance" class="refinance">
         <h2 class="refinance__title title title_section">Рассчитайте выгоду рефинансирования</h2>
-        <p class="refinance__desc">Ответьте на 4 вопроса по текущему ипотечному договору и узнайте, сколько вы
-          можете
-          сэкономить с нами</p>
-        <form action="">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Какая текущая процентная ставка?
-                <input class="refinance__input" type="text" placeholder="11,5%" required>
-              </label>
-              <p class="refinance__text">от 0 до 100%</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Сколько месяцев осталось платить?
-                <input class="refinance__input" type="text" placeholder="15 месяцев" required>
-              </label>
-              <p class="refinance__text">от 1 до 360 месяцев</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Какой текущий ежемесячный платеж?
-                <input class="refinance__input" type="text" placeholder="45 200 &#x20bd;" required>
-              </label>
-              <p class="refinance__text">от 1 000 до 500 000 &#x20bd;</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Какую сумму осталось выплатить?
-                <input class="refinance__input" type="text" placeholder="1 255 000 &#x20bd;" required>
-              </label>
-              <p class="refinance__text">от 100 до 10 000 000 &#x20bd;</p>
-            </div>
+        <p class="refinance__desc">Ответьте на 5 вопросов по текущему ипотечному договору и узнайте, сколько вы
+          переплачиваете банку</p>
+        <div class="row mt-3 mt-md-5">
+          <div class="col-12 text-center">
+              <div class="marquiz__container">
+                <a class="btn btn-primary marquiz_button marquizbutton_rounded marquiz_button_blicked"
+                  href="#popup:marquiz_5f06ceed7ba0ea0044ec4bf4" data-fixed-side=""
+                  data-alpha-color="rgba(14, 107, 177, 0.5)" data-color="#0E6BB1" data-text-color="#ffffff">Рассчитать выгоду</a>
+              </div>
           </div>
-          <div class="row mt-3 mt-md-5">
-            <div class="col-12 text-center">
-              <button class="refinance__btn btn btn-primary" type="submit">Рассчитать выгоду</button>
-            </div>
-          </div>
-        </form>
+        </div>
       </section>
     </div>
   </div>
@@ -739,6 +721,25 @@
 </section>
 <!-- /// _/components/modals/mod3.tpl -->
 
+        <!-- _/components/quiz/quiz.tpl -->
+<!-- Marquiz script start -->
+<script src="//script.marquiz.io/v1.js" type="application/javascript"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Marquiz.init({
+        host: '//quiz.marquiz.io',
+        id: '5f06ceed7ba0ea0044ec4bf4',
+        autoOpen: false,
+        autoOpenFreq: 'once',
+        openOnExit: true
+      }
+
+    );
+  });
+</script>
+<!-- Marquiz script end -->
+<!-- /// _/components/quiz/quiz.tpl -->
+
 
 
 
@@ -752,7 +753,7 @@
 
         <!-- _/components/counters/index.tpl -->
 <!-- Yandex.Metrika counter -->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
   (function (m, e, t, r, i, k, a) {
     m[i] = m[i] || function () {
       (m[i].a = m[i].a || []).push(arguments)
@@ -764,7 +765,7 @@
   })
   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  ym(65341972, "init", {
+  ym(65517055, "init", {
       clickmap: true,
       trackLinks: true,
       accurateTrackBounce: true,
@@ -774,9 +775,37 @@
   );
 </script>
 <noscript>
-  <div><img src="https://mc.yandex.ru/watch/65341972" style="position:absolute; left:-9999px;" alt="" /></div>
-</noscript> -->
+  <div><img src="https://mc.yandex.ru/watch/65517055" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  ! function (f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function () {
+      n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    }
+
+    ;
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '609697363259457');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=609697363259457&ev=PageView&noscript=1" /></noscript>
+<!-- End Facebook Pixel Code -->
 <!-- /// _/components/counters/index.tpl -->
 
     </body>

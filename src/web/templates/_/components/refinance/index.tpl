@@ -3,46 +3,17 @@
     <div class="fill fill_primary-light px-3 py-4 p-lg-5">
       <section id="refinance" class="refinance">
         <h2 class="refinance__title title title_section">Рассчитайте выгоду рефинансирования</h2>
-        <p class="refinance__desc">Ответьте на 4 вопроса по текущему ипотечному договору и узнайте, сколько вы
-          можете
-          сэкономить с нами</p>
-        <form action="">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Какая текущая процентная ставка?
-                <input class="refinance__input" type="text" placeholder="11,5%" required>
-              </label>
-              <p class="refinance__text">от 0 до 100%</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Сколько месяцев осталось платить?
-                <input class="refinance__input" type="text" placeholder="15 месяцев" required>
-              </label>
-              <p class="refinance__text">от 1 до 360 месяцев</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Какой текущий ежемесячный платеж?
-                <input class="refinance__input" type="text" placeholder="45 200 &#x20bd;" required>
-              </label>
-              <p class="refinance__text">от 1 000 до 500 000 &#x20bd;</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <label class="refinance__label">
-                Какую сумму осталось выплатить?
-                <input class="refinance__input" type="text" placeholder="1 255 000 &#x20bd;" required>
-              </label>
-              <p class="refinance__text">от 100 до 10 000 000 &#x20bd;</p>
-            </div>
+        <p class="refinance__desc">Ответьте на 5 вопросов по текущему ипотечному договору и узнайте, сколько вы
+          переплачиваете банку</p>
+        <div class="row mt-3 mt-md-5">
+          <div class="col-12 text-center">
+              <div class="marquiz__container">
+                <a class="btn btn-primary marquiz_button marquizbutton_rounded marquiz_button_blicked"
+                  href="#popup:marquiz_5f06ceed7ba0ea0044ec4bf4" data-fixed-side=""
+                  data-alpha-color="rgba(14, 107, 177, 0.5)" data-color="#0E6BB1" data-text-color="#ffffff">Рассчитать выгоду</a>
+              </div>
           </div>
-          <div class="row mt-3 mt-md-5">
-            <div class="col-12 text-center">
-              <button class="refinance__btn btn btn-primary" type="submit">Рассчитать выгоду</button>
-            </div>
-          </div>
-        </form>
+        </div>
       </section>
     </div>
   </div>

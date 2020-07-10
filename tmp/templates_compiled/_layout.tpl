@@ -283,6 +283,25 @@
 </section>
 <!-- /// _/components/modals/mod3.tpl -->
 
+        <!-- _/components/quiz/quiz.tpl -->
+<!-- Marquiz script start -->
+<script src="//script.marquiz.io/v1.js" type="application/javascript"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Marquiz.init({
+        host: '//quiz.marquiz.io',
+        id: '5f06ceed7ba0ea0044ec4bf4',
+        autoOpen: false,
+        autoOpenFreq: 'once',
+        openOnExit: true
+      }
+
+    );
+  });
+</script>
+<!-- Marquiz script end -->
+<!-- /// _/components/quiz/quiz.tpl -->
+
 
 
 
@@ -296,7 +315,7 @@
 
         <!-- _/components/counters/index.tpl -->
 <!-- Yandex.Metrika counter -->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
   (function (m, e, t, r, i, k, a) {
     m[i] = m[i] || function () {
       (m[i].a = m[i].a || []).push(arguments)
@@ -308,7 +327,7 @@
   })
   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  ym(65341972, "init", {
+  ym(65517055, "init", {
       clickmap: true,
       trackLinks: true,
       accurateTrackBounce: true,
@@ -318,9 +337,37 @@
   );
 </script>
 <noscript>
-  <div><img src="https://mc.yandex.ru/watch/65341972" style="position:absolute; left:-9999px;" alt="" /></div>
-</noscript> -->
+  <div><img src="https://mc.yandex.ru/watch/65517055" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  ! function (f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function () {
+      n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    }
+
+    ;
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '609697363259457');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=609697363259457&ev=PageView&noscript=1" /></noscript>
+<!-- End Facebook Pixel Code -->
 <!-- /// _/components/counters/index.tpl -->
 
     </body>

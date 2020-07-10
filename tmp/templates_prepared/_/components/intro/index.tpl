@@ -15,7 +15,12 @@
               <p class="intro__text mb-3 mb-lg-5">РОСПРОФЖЕЛ помогает работникам отрасли получить<br class="d-none d-xl-block"> рефинансирование
                 ипотеки на более выгодных условиях — с<br class="d-none d-xl-block"> меньшим ежемесячным платежом или
                 сроком выплаты</p>
-              <a class="intro__link btn btn-primary" href="javascript:;" data-src="#popup2" data-fancybox>Рассчитать выгоду</a>
+              <div class="marquiz__container">
+                <a class="btn btn-primary marquiz_button marquizbutton_rounded marquiz_button_blicked"
+                  href="#popup:marquiz_5f06ceed7ba0ea0044ec4bf4" data-fixed-side=""
+                  data-alpha-color="rgba(14, 107, 177, 0.5)" data-color="#0E6BB1" data-text-color="#ffffff">Рассчитать
+                  выгоду</a>
+              </div>
             </div>
           </div>
         </div>
